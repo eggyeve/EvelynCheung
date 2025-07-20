@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer>
+  </script>
+  <title>EvelynCheung</title>
+</head>
+<body>
+  <audio id="click_sound">
+    <source src="button sound/Button hover sound.m4a" type="audio/mp3">
+  </audio>
+  <div class="navbar">
+    <div class="brand">
+      <h1 class="title">Evelyn Cheung</h1>
+      <img class="logo" src="assets/Penguin_jump.gif" alt="">
+    </div>
+    <ul class="navbar-buttons">
+      <li>
+        <a href="index.html" onmouseover="navbarSound()" class="navbar-button">
+          Home
+
+        </a>
+      </li>
+      
+        <a href="about.html" onmouseover="navbarSound()" class="navbar-button">
+          About
+        </a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button  onmouseover="navbarSound()" class="dropdown-button navbar-button">Project</button>
+          <div class="dropdown-menu">
+            <a href="vfx.html"  onmouseover="navbarSound()">VFX</a>
+            <a href="animation.html"  onmouseover="navbarSound()">Animation</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="contact.html" class="navbar-button"  onmouseover="navbarSound()">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="navbar-phone">
+    <div>
+      <h1 class="title">Evelyn Cheung</h1>
+      <img class="logo" src="assets/Penguin_jump.gif" alt="">
+    </div>
+    <div>
+      <h2>characater and VFX animator</h2>
+      <button class="menu-dropdown-button" onclick="toggleMenu()">
+        <img class="menu-bar" src="assets/bars.png" alt="">
+      </button>
+    </div>
+  </div>
+  <div class="navbar-phone-menu" id="menu">
+    <a href="../index.html" class="navbar-phone-button">Home</a>
+    <a href="../about.html" class="navbar-phone-button">About</a>
+    <a onclick="toggleProjectMenu()" class="navbar-phone-button">Project</a>
+    <div class="project-dropdown" id="project_menu_button">
+      <a href="../vfx.html" class="navbar-phone-button">VFX</a>
+      <a href="../animation.html" class="navbar-phone-button">Animation</a>      
+    </div>
+    <a href="../contact.html" class="navbar-phone-button">Contact</a>
+  </div>
+
+
+  <div class="animation"></div>
+    <h1 class="title-1">Animated Projects</h1>
+  <div class="grid-wrapper">
+    <div class="projects-grid">
+      <a class="thumbnail-wrapper" href="projects/skiwivseggy.html">
+        <img src="assets/skiwi vs eggy.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Skiwi vs Eggy</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2025 June - Present) </span>
+        </p>
+      </a>
+
+      <a class="thumbnail-wrapper" href="projects/checkpoint.html">
+        <img src="assets/Checkpoint Thmubnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Checkpoint</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2025 May - Present)</span>  
+        </p>
+      </a>
+
+
+      <a class="thumbnail-wrapper" href="projects/paperreflections.html">
+        <img src="assets/Paper Reflections Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Paper Reflections</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2025 Feb - 2025 May)</span>   
+
+        </p>
+      </a>
+
+      <a class="thumbnail-wrapper" href="projects/swimfree.html">
+        <img src="assets/Swim Free Thumbnail.jpg" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Swim Free</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2024 Sep - 2025 Jan)</span>  
+
+        </p>
+      </a>
+
+
+      <a class="thumbnail-wrapper" href="projects/something-in-the-well.html">
+        <img src="assets/something in the well thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Something in the Well</h1>
+        <p class="project-date">
+         <span class="not-highlight-text">(2024 Feb - 2024 May)</span>  
+
+        </p> 
+      </a>
+
+      <a class="thumbnail-wrapper" href="">
+        <img src="assets/Quacketeers Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Quackateers</h1>
+        <p class="project-date">
+         <span class="not-highlight-text">(2023 Sep - 2024 Jan)</span>  
+        </p>
+      </a>
+
+
+      <a class="thumbnail-wrapper" href="projects/anxiety.html">
+        <img src="assets/Anxiety Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Anxiety</h1>
+        <p class="project-date">
+         <span class="not-highlight-text">(2022 Jan - 2022 April)</span>  
+          
+        </p>
+      </a>
+
+      <a class="thumbnail-wrapper" href="projects/frostyhands.html">
+        <img src="assets/frosty hands.PNG" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Frosty Hands</h1>
+        <p class="project-date">
+         <span class="not-highlight-text">(2022 Sep - 2022 Jan)</span> 
+        </p>
+      </a> 
+
+
+      <a class="thumbnail-wrapper" href="projects/11-second-club.html">
+        <img src="assets/11 Second Club Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">11 Second Club ‘Crush It’ </h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2024 June)</span>  
+
+        </p>
+      </a>
+
+      <a class="thumbnail-wrapper" href="projects/">
+        <img src="assets/Kirby vs piranha thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">Kirby vs piranha</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2024 Feb)</span>  
+         
+        </p>
+      </a>
+
+
+      <a class="thumbnail-wrapper" href="/projects/dnad.html">
+        <img src="assets/DNAD Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">‘Chew Good, Feel Good’ </h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2025 Feb)</span>  
+
+        </p>
+      </a>
+      
+      <a class="thumbnail-wrapper" href="projects/kodak.html">
+        <img src="assets/Kodak Brook Thumbnail.png" class="projects-thumbnail" alt="">
+        <h1 class="project-header">‘Stay Safe, Stay Protected’</h1>
+        <p class="project-date">
+          <span class="not-highlight-text">(2024 Sep - 2025 Jan)</span>  
+          
+        </p>
+      </a>
+    </div>
+  </div>
+  <button id="back_to_top" onclick="topFunction()" class="back-to-top">Back to top</button>
+
+  <div class="footer">
+    <a href="https://www.linkedin.com/in/evelyn-cheung-nw/"><img src="assets/linkedin.png" alt=""></a>
+    <a href="https://www.instagram.com/eggy_eve/"><img src="assets/instagram.png" alt=""></a>
+    <a href="https://mail.google.com/mail/?ew=cm&fs=1&to=cheungngawingevelyn5030@gmail.com"><img src="assets/envelope.png" alt=""></a>
+  </div>
+
+</body>
+</html>

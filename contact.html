@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer>
+  </script>
+  <title>EvelynCheung</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <div>
+        <h1 class="title">Evelyn Cheung</h1>
+        <h2>characater and vfx animator</h2>        
+      </div>
+      <img class="logo" src="assets/Penguin_jump.gif" alt="">
+    </div>
+    <ul class="navbar-buttons">
+      <li>
+        <a href="index.html" onmouseover="navbarSound()" class="navbar-button">
+          Home
+        </a>
+      </li>
+        <a href="about.html" onmouseover="navbarSound()" class="navbar-button">
+          About
+        </a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button  onmouseover="navbarSound()" class="dropdown-button navbar-button">Project</button>
+          <div class="dropdown-menu">
+            <a href="vfx.html"  onmouseover="navbarSound()">VFX</a>
+            <a href="animation.html"  onmouseover="navbarSound()">Animation</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="contact.html" class="navbar-button"  onmouseover="navbarSound()">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="navbar-phone">
+    <div>
+      <h1 class="title">Evelyn Cheung</h1>
+      <img class="logo" src="assets/Penguin_jump.gif" alt="">
+    </div>
+    <div>
+      <h2>characater and VFX animator</h2>
+      <button class="menu-dropdown-button" onclick="toggleMenu()">
+        <img class="menu-bar" src="assets/bars.png" alt="">
+      </button>
+    </div>
+  </div>
+  <div class="navbar-phone-menu" id="menu">
+    <a href="index.html" class="navbar-phone-button">Home</a>
+    <a href="about.html" class="navbar-phone-button">About</a>
+    <a onclick="toggleProjectMenu()" class="navbar-phone-button">Project</a>
+    <div class="project-dropdown" id="project_menu_button">
+      <a href="vfx.html" class="navbar-phone-button">VFX</a>
+      <a href="animation.html" class="navbar-phone-button">Animation</a>      
+    </div>
+    
+    <a href="contact.html" class="navbar-phone-button">Contact</a>
+  </div>
+
+  <div class="contact">
+    <div class="contact-title-wrapper">
+      <h1 class="title-3">Keep in Touch?</h1>
+      <img width="142.9px" height="150px" class="penguin-sleeping" src="\assets\Penguin_sleeping.gif" alt="">   
+    </div>
+<!-- 
+    <form action="" class="contact-form">
+      <input type="text" placeholder="Your name...">
+      <input type="text"placeholder="Your email...">
+      <textarea placeholder="Message..." name="Message..." id=""></textarea>
+    </form> -->
+  </div>
+
+  <div class="footer">
+    <a href="https://www.linkedin.com/in/evelyn-cheung-nw/"><img src="assets/linkedin.png" alt=""></a>
+    <a href="https://www.instagram.com/eggy_eve/"><img src="assets/instagram.png" alt=""></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cheungngawingevelyn5030@gmail.com"><img src="assets/envelope.png" alt=""></a>
+  </div>
+</body>
+</html>
