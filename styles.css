@@ -76,6 +76,12 @@ body {
  
 }
 
+
+.navbar-button:hover {
+  transition: .25s ease;
+  transform: scale(0.9);
+}
+
 .showreel-video {
   border-width: 1rem;
   border-radius: 20px;
@@ -310,7 +316,9 @@ body {
 .project-video {
  margin-top: 50px;
  margin-bottom: 50px;
-border-radius: 20px;
+ border-radius: 20px;
+ width: 100%;
+ max-width: 560px;
 }
 
 .project-wrapper .project-description h1 {
@@ -326,7 +334,6 @@ border-radius: 20px;
 .project-about {
   display: grid;
   justify-items: center;
-
 }
 
 .project-about p {
@@ -337,27 +344,26 @@ border-radius: 20px;
 }
 
 .description-wrapper {
-  width: 40%;
   background-color: #fff7e0;
-  color: #b24608;
-  padding: 0.5rem 2.5rem;
+  color: #b2460877;
+  padding: 0.5rem 1.5rem;
   border-radius: 40px;
   font-family: "Jersey 15", sans-serif;
-  font-weight: 200;
-  font-style: normal;  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  text-align: middle;
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%;
+  box-sizing: border-box;
  
 }
 
-.vfx-videos {
-  display: flex;
-  justify-content: center;
-}
 
-.vfx-video {
-  width: 50%;
-  margin: 10px;
+
+.vfx-videos {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .project-about span {
@@ -473,6 +479,38 @@ border-radius: 20px;
   opacity: 0.9;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column{
+  flex: 25%;
+  max-width: 25%;
+}
+
+.img-hover-zoom{
+  height:auto ;
+  overflow: hidden;
+  border: 1px solid #fff7e0;
+}
+
+.img-hover-zoom img{
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: transform 0.25s ease;
+}
+
+.img-hover-zoom:hover img{
+  transform: scale(1.25) ;
+}
+
+
+.vfx-wrapper {
+  display: grid;
+}
 
 @media only screen and (max-width: 850px) {
   .navbar-phone {
@@ -535,3 +573,27 @@ border-radius: 20px;
   }
 }
 
+.column{
+  flex: 50%;
+  max-width: 100%;
+}
+
+.skiwi-photos {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px){
+  .column{
+  flex: 100%;
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .vfx-videos {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
