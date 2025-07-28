@@ -308,6 +308,11 @@ body {
   color: black;
 }
 
+.thumbnail-wrapper:hover {
+  transition: .25s ease;
+  transform: scale(0.9);
+}
+
 .project-wrapper {
   display: flex;
   justify-content: center;
@@ -464,7 +469,28 @@ body {
   padding-right: 2rem;
 }
 
+
+.back-to-top:hover {
+  transition: .25s ease;
+  transform: scale(0.9);
+}
+
 .back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff7e0;
+  font-family: "Jersey 15", sans-serif;
+  font-style: normal;  color: #b24608;
+  font-size: 2rem;
+  opacity: 0.9;
+}
+
+.backbutton{
   display: none;
   position: fixed;
   bottom: 20px;
@@ -511,6 +537,9 @@ body {
 .vfx-wrapper {
   display: grid;
 }
+
+
+
 
 @media only screen and (max-width: 850px) {
   .navbar-phone {

@@ -48,28 +48,8 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, scroll to the top of tt
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-let mybutton = document.getElementById("back_button");
-
-// Show the back button when the user scrolls down a bit (optional)
-  window.onscroll = function() {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      backButton.style.display = "block";
-    } else {
-      backButton.style.display = "none";
-    }
-  }
-
-  // Take the user to the previous page
-  function goBack() {
-    window.history.back();
-  }
