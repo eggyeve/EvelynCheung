@@ -1,8 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
+div {
+    cursor:url(arrow.png),auto;
+    
+  }
+
 body {
   background-color: #ffc866;
+  cursor:url(arrow.png),auto;
 }
 
 .title {
@@ -48,6 +54,7 @@ body {
   font-size: 2rem;
   text-decoration-line: none;
   flex-wrap: wrap;
+  cursor:url(hands.png),auto;
 }
 
 .navbar-phone-button {
@@ -73,13 +80,14 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
- 
+  cursor:url(hands.png),auto;
 }
 
 
 .navbar-button:hover {
   transition: .25s ease;
   transform: scale(0.9);
+  cursor:url(hands.png),auto;
 }
 
 .showreel-video {
@@ -90,12 +98,14 @@ body {
   min-width: 22rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  cursor:url(hands.png),auto;
 }
 
 
 .showreel {
   display: flex;
   justify-content: center;
+  cursor:url(hands.png),auto;
 }
 
 .brand {
@@ -239,6 +249,8 @@ body {
   border-radius: 20px;
   display: none;
   z-index: 1000;
+  cursor:url(hands.png),auto;
+
 }
 
 /* Dropdown items */
@@ -251,19 +263,26 @@ body {
   border-radius: 40px;
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
-   font-size: 1rem;
+  font-size: 1rem;
   letter-spacing: 0.2rem;
-  font-style: normal;}
+  font-style: normal;
+  cursor:url(hands.png),auto;
+
+}
 
 .dropdown-menu a:hover {
   background-color: #ffeebd;
    color: #b24608;
   letter-spacing: 0.2rem;
+  cursor:url(hands.png),auto;
+
 }
 
 /* Hover effect to show the menu */
 .dropdown:hover .dropdown-menu {
   display: block;
+  cursor:url(hands.png),auto;
+
 }
 
 .projects-grid {
@@ -287,6 +306,8 @@ body {
   height: 22.5rem;
   width: 38.25rem;
   border-radius: 20px;
+  cursor:url(hands.png),auto;
+
 }
 
 .project-header {
@@ -306,16 +327,22 @@ body {
   margin: 25px;
   text-decoration: none;
   color: black;
+  cursor:url(hands.png),auto;
+
 }
 
 .thumbnail-wrapper:hover {
   transition: .25s ease;
   transform: scale(0.9);
+  cursor:url(hands.png),auto;
+
 }
 
 .project-wrapper {
   display: flex;
   justify-content: center;
+  cursor:url(hands.png),auto;
+
 }
 
 .project-video {
@@ -384,6 +411,8 @@ body {
   width: 100%;
   max-width: 600px; /* adjust as needed */
   margin: 20px;
+  cursor:url(hands.png),auto;
+
 }
 
 .contact-form input {
@@ -399,6 +428,8 @@ body {
   font-style: normal;  font-size: 1.5rem;
   letter-spacing: 0.2rem;
   text-align: middle;
+  cursor:url(hands.png),auto;
+
 }
 
 .contact-form textarea {
@@ -416,12 +447,16 @@ body {
   font-style: normal;  font-size: 1.5rem;
   letter-spacing: 0.2rem;
   text-align: middle;
+  cursor:url(hands.png),auto;
+
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #b24608;
   opacity: 0.5;
+  cursor:url(hands.png),auto;
+
 }
 
 .menu-bar {
@@ -444,15 +479,21 @@ body {
   background-color: transparent;
   border: none;
   margin: 0px;
+  cursor:url(hands.png),auto;
+
 }
 
 .project-dropdown {
   display: none;
   opacity: 0.6;
+  cursor:url(hands.png),auto;
+
 }
 
 .project-dropdown a {
   margin-left: 30px;
+  cursor:url(hands.png),auto;
+
 }
 
 .footer {
@@ -460,6 +501,7 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+  cursor:url(arrow.png),auto;
 }
 
 .footer a img {
@@ -467,12 +509,26 @@ body {
   margin-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  cursor:url(arrow.png),auto;
 }
 
+.linkedin{
+ cursor:url(hands.png),auto;
+}
+
+.insta{
+ cursor:url(hands.png),auto;
+}
+
+.email{
+ cursor:url(hands.png),auto;
+}
 
 .back-to-top:hover {
   transition: .25s ease;
   transform: scale(0.9);
+  cursor:url(hands.png),auto;
+
 }
 
 .back-to-top {
@@ -488,6 +544,8 @@ body {
   font-style: normal;  color: #b24608;
   font-size: 2rem;
   opacity: 0.9;
+  cursor:url(hands.png),auto;
+
 }
 
 .backbutton{
@@ -503,6 +561,8 @@ body {
   font-style: normal;  color: #b24608;
   font-size: 2rem;
   opacity: 0.9;
+  cursor:url(hands.png),auto;
+
 }
 
 .row{
@@ -519,6 +579,8 @@ body {
   height:auto ;
   overflow: hidden;
   border: 1px solid #fff7e0;
+  cursor:url(hands.png),auto;
+
 }
 
 .img-hover-zoom img{
@@ -527,17 +589,21 @@ body {
   padding: 0;
   border: 0;
   transition: transform 0.25s ease;
+  cursor:url(hands.png),auto;
+
 }
 
 .img-hover-zoom:hover img{
   transform: scale(1.25) ;
+  cursor:url(hands.png),auto;
+
 }
+
 
 
 .vfx-wrapper {
   display: grid;
 }
-
 
 
 
