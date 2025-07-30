@@ -13,13 +13,14 @@ body {
 
 .title {
   display: flex;
+  justify-content: center;
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-style: normal;  color: #b24608;
   font-size: 4rem;
   min-width: 1rem;
   letter-spacing: 0.25rem;
-  margin: 10px;
+  margin: 15px;
 }
 
 .subtitles{
