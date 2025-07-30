@@ -162,6 +162,22 @@ body {
   box-sizing: border-box;
 }
 
+.speech-bubble-2 {
+  background-color: #fff7e0;
+  color: #b2460877;
+  padding: 2rem 2.5rem;
+  border-radius: 40px;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  max-width: 500px;
+  min-width: 300px;
+  width: auto;
+  box-sizing: border-box;
+  margin: 30px;
+
+}
 .speech-header {
   display: flex;
   font-family: "Jersey 15", sans-serif;
@@ -653,6 +669,22 @@ body {
     height: auto;
   }
 
+  .speech-bubble-2 {
+  background-color: #fff7e0;
+  color: #b2460877;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  letter-spacing: 0.2rem;
+  max-width: 500px;
+  min-width: 300px;
+  width: auto;
+  box-sizing: border-box;
+  margin: 30px;
+
+}
   .back-to-top {
     display: none;
     position: fixed;
