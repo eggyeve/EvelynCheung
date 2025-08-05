@@ -590,7 +590,6 @@ body {
   font-size: 2rem;
   opacity: 0.9;
   cursor:url(hands.png),auto;
-
 }
 
 .row{
@@ -636,6 +635,21 @@ body {
 .penguin-sleeping{
 margin-left: 3vw;
 margin-top: 2vw;
+}
+
+.prev-button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff7e0;
+  font-family: "Jersey 15", sans-serif;
+  font-style: normal;  color: #b24608;
+  font-size: 2rem;
+  opacity: 0.9;
+  cursor:url(hands.png),auto;
 }
 
 @media only screen and (max-width: 850px) {
@@ -719,7 +733,21 @@ margin-top: 2vw;
     font-style: normal;  color: #b24608;
     font-size: 1rem;
   }
-}
+
+  .prev-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.9;
+    background-color: #fff7e0;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;  color: #b24608;
+    font-size: 1rem;
+  }
 
 .column{
   flex: 50%;
@@ -731,7 +759,7 @@ margin-top: 2vw;
   height: auto;
   margin: 0;
 }
-
+}
 
 /* @media screen and (max-width: 500px){
   .column{
