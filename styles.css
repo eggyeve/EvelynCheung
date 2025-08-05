@@ -20,7 +20,9 @@ body {
   font-size: 4rem;
   min-width: 1rem;
   letter-spacing: 0.25rem;
-  margin: 15px;
+  /* margin: 15px; */
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .subtitles{
@@ -162,22 +164,25 @@ body {
   box-sizing: border-box;
 }
 
-.speech-bubble-2 {
+  .speech-bubble-2 {
+  align-items: center;
+  justify-content: center;
+  display: grid;
   background-color: #fff7e0;
   color: #b2460877;
-  padding: 2rem 2.5rem;
+  padding: 1rem 2rem;
   border-radius: 40px;
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  max-width: 500px;
-  min-width: 300px;
+  max-width: 400px;
+  min-width: 400px;
   width: auto;
-  box-sizing: border-box;
+  line-height: 0%;
   margin: 30px;
-
 }
+
 .speech-header {
   display: flex;
   font-family: "Jersey 15", sans-serif;
@@ -363,11 +368,13 @@ body {
 }
 
 .project-video {
- margin-top: 50px;
- margin-bottom: 50px;
+ margin-top: 20px;
+ margin-bottom: 20px;
  border-radius: 20px;
  width: 100%;
- max-width: 560px;
+ aspect-ratio: 16 / 9;
+ max-width: 1100px;
+
 }
 
 .project-wrapper .project-description h1 {
@@ -401,8 +408,10 @@ body {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  max-width: 500px;
+  max-width: 1100px;
   min-width: 300px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
  
@@ -475,7 +484,9 @@ body {
   cursor:url(hands.png),auto;
 
 }
-
+.contact{
+  margin-left: 4rem;
+}
 .menu-bar {
   width: 7.5%;
   display: none;
@@ -622,7 +633,10 @@ body {
   display: grid;
 }
 
-
+.penguin-sleeping{
+margin-left: 3vw;
+margin-top: 2vw;
+}
 
 @media only screen and (max-width: 850px) {
   .navbar-phone {
@@ -631,16 +645,11 @@ body {
 
   .navbar-phone div {
     display: flex;
+
   }
 
   .title {
-    font-size: 20.5;
-  }
-
-  .logo {
-    width: 100px;
-    margin-right:30px;
-    margin-left: 30px;
+    font-size: 60px;
   }
 
   .navbar-phone div {
@@ -663,6 +672,13 @@ body {
     display: block;
     width: 20px;
   }
+.contact{
+  margin-left: 2rem;
+}
+.contact-wrapper{
+  margin-left: 2rem; 
+}
+
 
   .projects-thumbnail {
     width: 100%;
@@ -670,6 +686,9 @@ body {
   }
 
   .speech-bubble-2 {
+  align-items: center;
+  justify-content: center;
+  display: grid;
   background-color: #fff7e0;
   color: #b2460877;
   padding: 1rem 2rem;
@@ -682,6 +701,7 @@ body {
   min-width: 300px;
   width: auto;
   box-sizing: border-box;
+  line-height: 1px;
   margin: 30px;
 
 }
@@ -712,7 +732,8 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width: 500px){
+
+/* @media screen and (max-width: 500px){
   .column{
   flex: 100%;
   max-width: 100%;
@@ -724,4 +745,4 @@ body {
     display: grid;
     grid-template-columns: auto;
   }
-}
+} */
