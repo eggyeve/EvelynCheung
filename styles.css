@@ -1010,40 +1010,40 @@ position: fixed;
 } */
 
 #card-0 .card-image {
-  background-image: url(assets/skiwi\ 1.png);
+  background-image: url(assets/skiwi\ 1.webp);
 }
 #card-1 .card-image {
-  background-image: url(assets/skiwi\ 2.png);
+  background-image: url(assets/skiwi\ 2.webp);
 }
 #card-2 .card-image {
-  background-image: url(assets/skiwi\ 3.jpeg);
+  background-image: url(assets/skiwi\ 3.webp);
 }
 #card-3 .card-image {
-  background-image: url(assets/skiwi\ 4.jpeg);
+  background-image: url(assets/skiwi\ 4.webp);
 }
 #card-4 .card-image {
-  background-image: url(assets/skiwi\ 5.png);
+  background-image: url(assets/skiwi\ 5.webp);
 }
 #card-5 .card-image {
-  background-image: url(assets/skiwi\ 6.png);
+  background-image: url(assets/skiwi\ 6.webp);
 }
 #card-6 .card-image {
-  background-image: url(assets/skiwi\ 7.png);
+  background-image: url(assets/skiwi\ 7.webp);
 }
 #card-7 .card-image {
-  background-image: url(assets/skiwi\ 8.png);
+  background-image: url(assets/skiwi\ 8.webp);
 }
 #card-8 .card-image {
-  background-image: url(assets/skiwi\ 9.png);
+  background-image: url(assets/skiwi\ 9.webp);
 }
 #card-9 .card-image {
-  background-image: url(assets/skiwi\ 10.png);
+  background-image: url(assets/skiwi\ 10.webp);
 }
 #card-10 .card-image {
-  background-image: url(assets/skiwi\ 12.png);
+  background-image: url(assets/skiwi\ 12.webp);
 }
 #card-11 .card-image {
-  background-image: url(assets/skiwi\ 13.png);
+  background-image: url(assets/skiwi\ 13.webp);
 }
 #card-12 .card-image {
   background-image: url(assets/skiwi\ 14.png);
@@ -1058,11 +1058,12 @@ position: fixed;
   background-image: url(assets/skiwi\ 17.png);
 }
 #card-16 .card-image {
-  background-image: url(assets/skiwi\ 18.png);
+  background-image: url(assets/skiwi\ 18.webp);
 }
 #card-17 .card-image {
-  background-image: url(assets/skiwi\ 19.png);
+  background-image: url(assets/skiwi\ 19.webp);
 }
+
 /* Responsive */
 @media (max-width: 768px) {
   .scene {
