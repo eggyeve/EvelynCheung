@@ -149,13 +149,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 0rem;
+  margin-bottom: 3rem;
 }
 
 .speech-bubble {
   background-color: #fff7e0;
   color: #b2460877;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   border-radius: 40px;
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
