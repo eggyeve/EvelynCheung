@@ -405,10 +405,17 @@ body {
  width: 100%;
  aspect-ratio: 16 / 9;
  max-width: 1100px;
-
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
-
+.project-video-2{
+justify-content: center;
+align-items: center;
+display: flex;
+max-width: 1100px;
+}
 
 .project-about {
   display: grid;
